@@ -3,9 +3,14 @@
 This is the source code for the tutorial located here:
 http://rjhcoding.com/avrc-sd-interface-3.php
 
+아래 참고자료를 통해 수정함
+http://users.ece.utexas.edu/~valvano/EE345M/SD_Physical_Layer_Spec.pdf
+[SD_Physical_Layer_Spec.pdf](https://github.com/Gwangho-Choi/SD_TUTORIAL_PART3/files/10996637/SD_Physical_Layer_Spec.pdf)
+
 Edit the makefile and change MCU to the microcontroller you are using, and AVRDUDE_PROGRAMMER to your programmer.
 
 Type 'make' to build:
+
 ```
 Compiling: main.c
 avr-gcc -c -mmcu=atmega328p -I. -DF_CPU=16000000UL  -Os 
