@@ -39,7 +39,7 @@
 #define ERASE_RESET(X)      X & 0b00000010
 #define IN_IDLE(X)          X & 0b00000001
 
-#define POWER_UP_STATUS(X)  X & 0x40
+#define POWER_UP_STATUS(X)  X & 0x80
 #define CCS_VAL(X)          X & 0x40
 #define VDD_2728(X)         X & 0b10000000
 #define VDD_2829(X)         X & 0b00000001
